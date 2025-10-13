@@ -92,8 +92,8 @@ public class HelloOOP {
 // HelloProcedural.java
 public class HelloProcedural {
    public static void main(String[] args) {
-      String nim = "2310112345";
-      String nama = "Budi";
+      String nim = "240202877";
+      String nama = "Nurlaela kusumandari";
       String[] produk = {"Beras", "Pupuk", "Benih"};
       int[] harga = {10000, 15000, 12000};
       int total = 0;
@@ -121,8 +121,8 @@ import java.util.*;
 import java.util.stream.*;
 public class HelloFunctional {
    public static void main(String[] args) {
-      String nim = "2310112345";
-      String nama = "Budi";
+      String nim = "240202877";
+      String nama = "Nurlaela kusumandari";
       List<String> produk = Arrays.asList("Beras", "Pupuk", "Benih");
       List<Integer> harga = Arrays.asList(10000, 15000, 12000);
       System.out.println("Hello POS World");
