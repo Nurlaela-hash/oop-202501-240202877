@@ -243,18 +243,18 @@ Hal ini memperlihatkan kekuatan Object-Oriented Programming dalam mengelola bany
 
 ## Quiz
 
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
- **Jawaban:**
+1. Apa perbedaan overloading dan overriding?  
+   **Jawaban:**
 
 - Overloading adalah mendefinisikan beberapa method dengan nama sama tapi parameter berbeda dalam satu class.
 - Overriding adalah mendefinisikan ulang method dari superclass di subclass dengan nama dan parameter yang sama untuk mengubah perilakunya.
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
+2. Bagaimana Java menentukan method mana yang dipanggil dalam dynamic binding?  
    **Jawaban:**
    Java menentukan method berdasarkan tipe objek sebenarnya (runtime type), bukan berdasarkan tipe referensinya.
    Artinya, jika variabel bertipe Produk tetapi objeknya new Pupuk(), maka method getInfo() milik Pupuk yang dipanggil.
 
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
+3. Berikan contoh kasus polymorphism dalam sistem POS selain produk pertanian.  
    **Jawaban:**
    Dalam sistem POS toko elektronik:
    - Superclass: Barang
