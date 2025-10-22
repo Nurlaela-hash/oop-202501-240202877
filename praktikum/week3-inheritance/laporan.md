@@ -197,11 +197,14 @@ public class Produk {
   - Benih → varietas
   - Pupuk → jenis
   - AlatPertanian → material
+
     Saat program dijalankan:
-  1.  Konstruktor subclass memanggil konstruktor superclass (super(...)) untuk mengisi data umum produk.
-  2.  Program menampilkan data tiap objek melalui System.out.println().
-  3.  Terakhir, kelas CreditBy digunakan untuk mencetak identitas pembuat program.
-      Dengan demikian, program menunjukkan bagaimana pewarisan (inheritance) bekerja untuk mengelompokkan produk pertanian berdasarkan kesamaan atribut dasar.
+
+  - Konstruktor subclass memanggil konstruktor superclass (super(...)) untuk mengisi data umum produk.
+  - Program menampilkan data tiap objek melalui System.out.println().
+  - Terakhir, kelas CreditBy digunakan untuk mencetak identitas pembuat program.
+
+  Dengan demikian, program menunjukkan bagaimana pewarisan (inheritance) bekerja untuk mengelompokkan produk pertanian berdasarkan kesamaan atribut dasar.
 
 - Pada minggu sebelumnya (tanpa inheritance), setiap kelas mungkin memiliki atribut dan metode yang berulang seperti nama, harga, dan stok. Minggu ini, dengan menggunakan inheritance, atribut dan metode umum dipindahkan ke satu kelas induk (Produk), lalu kelas turunan cukup menambahkan atribut spesifik saja.
   Perbedaan utamanya:
@@ -209,18 +212,18 @@ public class Produk {
   - Minggu ini: Menggunakan pewarisan → kode lebih efisien, terstruktur, dan mudah dikembangkan.
 
 - Beberapa kendala yang mungkin muncul:
-  1. Error package not found — karena struktur folder tidak sesuai dengan deklarasi package. 
-     🔧 Solusi: Pastikan folder com/upb/agripos/... sesuai dengan nama package di dalam file .java.
-  2. Class not found saat dijalankan — karena hasil compile tidak dimasukkan ke classpath. 
-     🔧 Solusi: Jalankan dengan perintah java -cp out com.upb.agripos.MainInheritance.
-  3. Typo pada nama file atau class — Java sensitif terhadap huruf besar kecil. 
-     🔧 Solusi: Pastikan nama file sama persis dengan nama class publik di dalamnya.
+  - Error package not found — karena struktur folder tidak sesuai dengan deklarasi package. 
+    🔧 Solusi: Pastikan folder com/upb/agripos/... sesuai dengan nama package di dalam file .java.
+  - Class not found saat dijalankan — karena hasil compile tidak dimasukkan ke classpath. 
+    🔧 Solusi: Jalankan dengan perintah java -cp out com.upb.agripos.MainInheritance.
+  - Typo pada nama file atau class — Java sensitif terhadap huruf besar kecil. 
+    🔧 Solusi: Pastikan nama file sama persis dengan nama class publik di dalamnya.
 
 ---
 
 ## Kesimpulan
 
-## Dengan menggunakan class dan inheritance, program menjadi lebih terstruktur, efisien, dan mudah dikelola. Konsep pewarisan memungkinkan kita untuk membuat kelas dasar yang menyimpan atribut umum, sehingga kode dapat digunakan kembali (reusability) dan lebih mudah dikembangkan tanpa perlu menulis ulang.
+Dengan menggunakan class dan inheritance, program menjadi lebih terstruktur, efisien, dan mudah dikelola. Konsep pewarisan memungkinkan kita untuk membuat kelas dasar yang menyimpan atribut umum, sehingga kode dapat digunakan kembali (reusability) dan lebih mudah dikembangkan tanpa perlu menulis ulang.
 
 ## Quiz
 
