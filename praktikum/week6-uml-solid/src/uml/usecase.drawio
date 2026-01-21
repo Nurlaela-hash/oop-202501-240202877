@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.3">
+  <diagram name="Page-1" id="p19zYsQnSoo5AOZ0QFcs">
+    <mxGraphModel dx="864" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jir85Ez-Lw_od5IwD_We-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=30;" value="AgriPOS" vertex="1">
+          <mxGeometry height="590" width="640" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-7" edge="1" parent="1" source="jir85Ez-Lw_od5IwD_We-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jir85Ez-Lw_od5IwD_We-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-8" edge="1" parent="1" source="jir85Ez-Lw_od5IwD_We-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jir85Ez-Lw_od5IwD_We-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-13" edge="1" parent="1" source="jir85Ez-Lw_od5IwD_We-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jir85Ez-Lw_od5IwD_We-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-14" edge="1" parent="1" source="jir85Ez-Lw_od5IwD_We-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jir85Ez-Lw_od5IwD_We-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Kasir" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Kelola Produk" vertex="1">
+          <mxGeometry height="70" width="140" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Lihat Laporan" vertex="1">
+          <mxGeometry height="70" width="140" x="280" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-15" edge="1" parent="1" source="jir85Ez-Lw_od5IwD_We-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="jir85Ez-Lw_od5IwD_We-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-16" connectable="0" parent="jir85Ez-Lw_od5IwD_We-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="include" vertex="1">
+          <mxGeometry relative="1" x="-0.0122" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Checkout" vertex="1">
+          <mxGeometry height="70" width="140" x="280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cetak Struk" vertex="1">
+          <mxGeometry height="70" width="140" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Pembayaran Tunai" vertex="1">
+          <mxGeometry height="70" width="140" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Pembayaran E-Wallet" vertex="1">
+          <mxGeometry height="70" width="140" x="520" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-17" edge="1" parent="1" source="jir85Ez-Lw_od5IwD_We-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="jir85Ez-Lw_od5IwD_We-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="510" as="sourcePoint" />
+            <mxPoint x="630" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jir85Ez-Lw_od5IwD_We-18" connectable="0" parent="jir85Ez-Lw_od5IwD_We-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="include" vertex="1">
+          <mxGeometry relative="1" x="-0.0122" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
