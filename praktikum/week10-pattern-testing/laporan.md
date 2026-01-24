@@ -145,7 +145,7 @@ public class ProductTest {
 
 ## Hasil Eksekusi
  
-![Screenshot hasil](screenshots/junit_result)
+![Screenshot hasil](screenshots/junit_result.png)
 (Gambar di atas menunjukkan bahwa test method testProductName telah Passed/Sukses)
 ---
 
